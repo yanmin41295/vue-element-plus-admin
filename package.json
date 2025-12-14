@@ -3,11 +3,11 @@
   "private": true,
   "type": "module",
   "workspaces": [
-    "./app-common",
-    "./app-backend"
+    "./app-backend",
+    "./app-common"
   ],
   "scripts": {
-    "clean all": "rimraf node_modules bun.lockb"
+    "clean all": "rimraf node_modules bun.lockb app-common/node_modules app-backend/node_modules app-admin/node_modules"
   },
   "devDependencies": {
     "bun-types": "latest",

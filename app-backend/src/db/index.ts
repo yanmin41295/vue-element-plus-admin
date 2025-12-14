@@ -5,8 +5,7 @@ const knexDb = knex({
     client: 'sqlite3',
     connection: {
         filename: './db/app.sqlite3',
-        options: {
-        }
+        options: {}
     },
     useNullAsDefault: true,
     migrations: {

@@ -1,14 +1,14 @@
 {
-  "name": "@app/common",
+  "name": "app-common",
   "version": "1.0.0",
   "module": "./src/index.ts",
   "type": "module",
   "scripts": {
+    "watch": "bun watch.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "reflect-metadata": "^0.2.2"
   }
 }

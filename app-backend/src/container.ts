@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import {glob} from "glob";
 import path from "node:path";
-import {BaseController, Constructor, controllerKey, requestMappingKey} from "@app/common/src/api/ApiHelper.ts";
+import {BaseController, Constructor, controllerKey, requestMappingKey} from "app-common/src/api/ApiHelper.js";
 
 async function checkIfExportsSubclass(module: any, baseClass: any): Promise<boolean> {
     try {

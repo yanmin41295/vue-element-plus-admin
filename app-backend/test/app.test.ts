@@ -1,4 +1,4 @@
-import {add} from "@app/common/src"
+import {add} from "app-common/src"
 
 Bun.serve({
     port: 3001,
