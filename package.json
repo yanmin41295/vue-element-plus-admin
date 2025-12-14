@@ -1,0 +1,28 @@
+{
+  "name": "@app/root",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "./app-common",
+    "./app-backend"
+  ],
+  "scripts": {
+    "clean all": "rimraf node_modules bun.lockb"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "esbuild": "^0.27.1"
+  },
+  "trustedDependencies": [
+    "@ffmpeg-installer/ffmpeg",
+    "electron",
+    "sharp"
+  ],
+  "dependencies": {
+    "glob": "^13.0.0",
+    "knex": "^3.1.0",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "vitest": "^4.0.15"
+  }
+}

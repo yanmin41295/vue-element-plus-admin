@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "declaration": true,
+    "declarationDir": "./dist/dts",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+    "strict": true,
+    "downlevelIteration": true,
+    "allowImportingTsExtensions": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "outDir": "./dist",
+    "types": [
+      "bun-types"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./test/**/*.ts"
+  ]
+}

@@ -1,0 +1,8 @@
+[install]
+registry = "https://registry.npmmirror.com"
+
+[build]
+# 确保原生模块正确构建
+preferNative = true
+# 设置正确的构建目标以允许使用Node.js内置模块
+target = "bun"
