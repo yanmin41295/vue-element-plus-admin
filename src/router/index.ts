@@ -23,7 +23,7 @@ export const constantRouterMap: AppRouteRecordRaw[] = [
     children: [
       {
         path: '/redirect/:path(.*)',
-        name: 'Redirect',
+        name: 'RedirectWarp',
         component: () => import('@/views/Redirect/Redirect.vue'),
         meta: {}
       }
